@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_mission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daily Mission"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@color/colorAccent"
+        android:paddingHorizontal="5dp"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:id="@+id/descriptionicon_mission"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginVertical="10dp"
+        android:src="@drawable/mon"/>
+
+    <TextView
+        android:id="@+id/description_mission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Little girl is in the SUPERMARKET. Go to a SUPERMARKET to meet her. You have chance to buy rare seeds!"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="5dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textSize="18dp"/>
+
+
+    <Button
+        android:id="@+id/complete_mission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:text="Complete"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:textSize="20sp"/>
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:id="@+id/seedpart">
+
+        <ImageView
+            android:id="@+id/gift_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/corner_bg"
+            android:layout_marginLeft="8dp"
+
+            android:src="@drawable/waterlily"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/gift_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:text="Water Lily"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/gift_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="1000"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/coin"
+                    android:layout_marginLeft="3dp"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

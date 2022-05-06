@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/bagFragment"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/backShopButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@color/purple_500"
+                android:tint="#FFFFFF"
+                app:srcCompat="?attr/homeAsUpIndicator"
+                android:paddingLeft="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@+id/backShopButton"
+                android:background="@color/purple_500"
+                android:fontFamily="sans-serif"
+                android:text="Your Seeds"
+                android:gravity="left|center"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/list_view_bag"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_map"
+        android:icon="@drawable/ic_baseline_wb_sunny_24"
+        android:title="Map" />
+    <item
+        android:id="@+id/navigation_friend"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_people_outline_24"
+        android:title="Friend" />
+    <item
+        android:id="@+id/navigation_shop"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:title="Shop" />
+    <item
+        android:id="@+id/navigation_profil"
+        android:enabled="true"
+        android:icon="@drawable/parkicon"
+        android:title="Tree" />
+</menu>

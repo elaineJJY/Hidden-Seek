@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/friendFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/teal_200"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/sharp_add_black_36"
+                android:background="@color/colorAccent"
+                android:tint="#FFFFFF"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Dialogs"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:layout_weight="14"/>
+
+            <ImageButton
+                android:id="@+id/friendListButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/sharp_add_black_36"
+                android:background="@color/colorAccent"
+                android:tint="#FFFFFF"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <com.example.hiddenseek.view.XListView
+            android:id="@+id/list_view_messageBox"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:cacheColorHint="#00000000">
+        </com.example.hiddenseek.view.XListView>
+
+    </LinearLayout>
+</FrameLayout>

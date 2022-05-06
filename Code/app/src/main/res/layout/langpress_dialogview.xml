@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_marker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add a Bomb"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@color/colorAccent"
+        android:paddingHorizontal="5dp"
+        android:textAlignment="textStart"
+        android:textSize="22sp" />
+    <ImageView
+        android:id="@+id/descriptionicon_marker"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/bomb2"/>
+
+    <TextView
+        android:id="@+id/questionview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_bomb"
+        android:layout_marginBottom="12dp"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/navigate_marker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#4CAF50"
+        android:drawableLeft="@drawable/ic_baseline_navigation_24"
+        android:text="Navigate"
+        android:textColor="@color/white"
+        android:visibility="gone"/>
+</LinearLayout>

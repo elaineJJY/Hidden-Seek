@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/gotomylocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="12dp"
+        android:clickable="true"
+        app:backgroundTint="@color/com_facebook_device_auth_text"
+        app:fabSize="mini"
+        app:srcCompat="@drawable/ic_baseline_navigation_24"
+        android:visibility="gone"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/dailymission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_toLeftOf="@+id/gotomylocation"
+        android:clickable="true"
+        android:tint="#FFFFFF"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabSize="mini"
+        app:srcCompat="@android:drawable/ic_input_get"
+        android:visibility="gone"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/timemission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_toLeftOf="@+id/dailymission"
+        android:clickable="true"
+        android:tint="#FFFFFF"
+        app:backgroundTint="@android:color/holo_orange_dark"
+        app:fabSize="mini"
+        app:rippleColor="#FFFFFF"
+        app:srcCompat="@android:drawable/ic_lock_idle_alarm"
+        android:visibility="gone"/>
+
+    <org.osmdroid.views.MapView
+        android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+    </org.osmdroid.views.MapView>
+
+</RelativeLayout>

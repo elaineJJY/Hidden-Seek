@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:id="@+id/addFriendFragment">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:clipChildren="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/topbarfriend"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/colorAccent"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/backFlistButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:foregroundTint="#FFFFFF"
+                app:srcCompat="?attr/homeAsUpIndicator"
+                android:layout_weight="5"
+                app:tint="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="18"
+                android:layout_marginRight="50dp"
+                android:layout_marginVertical="5dp"
+                android:background="@color/colorAccent">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:background="@color/colorAccent"
+                    android:foregroundTint="#00BFA5"
+                    app:srcCompat="@drawable/ic_baseline_search_24"
+                    app:tint="@color/white" />
+
+                <EditText
+                    android:id="@+id/friendSearchText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="10"
+                    android:background="@color/colorAccent"
+                    android:cursorVisible="false"
+                    android:ellipsize="start"
+                    android:hint="search name ..."
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:textAlignment="textStart"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                    android:textSize="18sp"
+                    android:theme="@style/MyEditText"/>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click the icon to chat with him!"
+            android:layout_gravity="center"
+            android:layout_marginVertical="10dp"/>
+
+        <ListView
+            android:id="@+id/list_view_add_friend_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

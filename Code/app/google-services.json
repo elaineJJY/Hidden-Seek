@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "40194924337",
+    "firebase_url": "https://iptk-project-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "iptk-project",
+    "storage_bucket": "iptk-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40194924337:android:38f4fc06a423e4e70eda10",
+        "android_client_info": {
+          "package_name": "com.example.hiddenseek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40194924337-p9tcc26hq0ed392ch54qcft74re5u23c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hiddenseek",
+            "certificate_hash": "ce920011bc751fc5e7f8ae8cb44a9184e514abbf"
+          }
+        },
+        {
+          "client_id": "40194924337-f38iq8g4j0ogovhpamtqulvn67vpko1t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX31j6OrIoJRiI_ZQuBEyIn0rBGSlSwhs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "40194924337-f38iq8g4j0ogovhpamtqulvn67vpko1t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

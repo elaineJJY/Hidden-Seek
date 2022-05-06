@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_marker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Confused Treasure Box"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@color/colorAccent"
+        android:paddingHorizontal="5dp"
+        android:textAlignment="textStart"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:id="@+id/descriptionicon_marker"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/box1"/>
+
+    <TextView
+        android:id="@+id/countdown_marker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/description_marker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/descriptor_marker"
+        android:layout_marginBottom="12dp"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/distance_marker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Distance unkown"
+        android:textAlignment="center"
+        android:textSize="26dp" />
+
+    <Button
+        android:id="@+id/navigate_marker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#4CAF50"
+        android:drawableLeft="@drawable/ic_baseline_navigation_24"
+        android:text="Navigate"
+        android:textColor="@color/white"
+        android:visibility="gone"/>
+
+
+</LinearLayout>
