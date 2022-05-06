@@ -10,7 +10,7 @@ As lockdown policy has been conducted, offices, markets and gyms have been close
 
 ## Overview of this game
 
-![ 43](README.assets/%2043.JPG){:height="100"}
+![ 43](README.assets/%2043.JPG)
 
 ![ 44](README.assets/%2044.JPG)
 
