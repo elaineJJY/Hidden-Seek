@@ -10,21 +10,21 @@ As lockdown policy has been conducted, offices, markets and gyms have been close
 
 ## Overview of this game
 
-![ 43](README.assets/%2043.JPG)
+![ 43](README.assets/%2043.JPG =100)
 
-![ 44](README.assets/%2044.JPG)
+![ 44](README.assets/%2044.JPG =100)
 
-![ 47](README.assets/%2047.JPG)
+![ 47](README.assets/%2047.JPG =100)
 
-![45](README.assets/45.JPG)
+![45](README.assets/45.JPG =100)
 
-![ 48](README.assets/%2048.JPG)
+![ 48](README.assets/%2048.JPG =100)
 
-![ 49](README.assets/%2049.JPG)
+![ 49](README.assets/%2049.JPG =100)
 
-![ 50](README.assets/%2050.JPG)
+![ 50](README.assets/%2050.JPG =100)
 
-![ 51](README.assets/%2051.JPG)
+![ 51](README.assets/%2051.JPG =100)
 
-![48](README.assets/48.JPG)
+![48](README.assets/48.JPG =100)
 
