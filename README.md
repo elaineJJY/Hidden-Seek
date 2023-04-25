@@ -20,21 +20,22 @@ If you find it interesting, please don't hesitate to share and subscribe this vi
 
 ## Overview of this game
 
-<img src="README.assets/%2043.JPG" alt=" 43" style="zoom: 25%;" />
 
-<img src="README.assets/%2044.JPG" alt=" 44" style="zoom: 25%;" />
 
-<img src="README.assets/%2047.JPG" alt=" 47" style="zoom:25%;" />
+<table>
+<td><img src="README.assets/%2043.JPG" alt=" 43" style="zoom: 25%;" /></td> 
+<td><img src="README.assets/%2044.JPG" alt=" 44" style="zoom: 25%;" /></td> 
+<td><img src="README.assets/%2047.JPG" alt=" 47" style="zoom:25%;" /></td> </tr>
+<td><img src="README.assets/45.JPG" alt="45" style="zoom:25%;" /></td> 
+<td><img src="README.assets/%2048.JPG" alt=" 48" style="zoom:25%;" /></td> 
+<td><img src="README.assets/%2049.JPG" alt=" 49" style="zoom:25%;" /></td> </tr>
+<td><img src="README.assets/%2050.JPG" alt=" 50" style="zoom:25%;" /></td> 
+<td><img src="README.assets/%2051.JPG" alt=" 51" style="zoom:25%;" /></td> 
+<td><img src="README.assets/48.JPG" alt="48" style="zoom:25%;" /></td> </tr>
+</table>
 
-<img src="README.assets/45.JPG" alt="45" style="zoom:25%;" />
 
-<img src="README.assets/%2048.JPG" alt=" 48" style="zoom:25%;" />
 
-<img src="README.assets/%2049.JPG" alt=" 49" style="zoom:25%;" />
 
-<img src="README.assets/%2050.JPG" alt=" 50" style="zoom:25%;" />
 
-<img src="README.assets/%2051.JPG" alt=" 51" style="zoom:25%;" />
-
-<img src="README.assets/48.JPG" alt="48" style="zoom:25%;" />
 
